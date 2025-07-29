@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eazy Veggie - Your Vegetable Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Eazy Veggie</h1>
+        </header>
+        
+        <main>
+            <div class="vegetable-list">
+                <h2>Select Your Vegetables</h2>
+                <div id="vegetable-items"></div>
+            </div>
+
+            <div class="cart-summary">
+                <h2>Cart Summary</h2>
+                <div class="cart-items"></div>
+                <div class="billing-section">
+                    <div class="billing-item">
+                        <span>Subtotal:</span>
+                        <span id="subtotal">₹0.00</span>
+                    </div>
+                    <div class="billing-item">
+                        <span>Tax (18%):</span>
+                        <span id="tax">₹0.00</span>
+                        <span>Delivery Charge</span>
+                        <span id="delivery-charge">₹49.00</span>
+                    </div>
+                    <div class="billing-item total">
+                        <span>Total:</span>
+                        <span id="total">₹0.00</span>
+                    </div>
+                    <button id="checkout-btn" class="checkout-btn">Proceed to Checkout</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
