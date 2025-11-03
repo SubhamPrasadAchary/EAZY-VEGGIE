@@ -65,7 +65,6 @@ function updateCart(vegetable, quantity) {
     }
     updateCartDisplay();
 }
-
 // Update cart display and calculate totals
 function updateCartDisplay() {
     cartItemsContainer.innerHTML = '';
@@ -88,7 +87,7 @@ function updateCartDisplay() {
         `;
         cartItemsContainer.appendChild(item);
     }
-    
+   
     // Calculate tax, delivery, and total
     const tax = subtotal * 0.18; // 18% tax
     const delivery = 49; // delivery charge
