@@ -17,7 +17,6 @@ Designed to fit mobile, tablet & desktop seamlessly — clean spacing, intuitive
 Images breaking? No issues! Intelligent onError fallback ensures UI stays consistent 😂🛠️
 ## Getting Started
 
-
 # Tech Stack Powering It 🚀
 
 ⚛️ React 18.2
