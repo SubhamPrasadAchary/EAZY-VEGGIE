@@ -1,4 +1,4 @@
-// Vegetable inventory with prices (per kg) and image URLs
+ // Vegetable inventory with prices (per kg) and image URLs
 const vegetables = [
     { name: "Tomato", price: 50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJa6G2sFzRt2c_4DljZUMKfK8sMOFV-E8F_A&s" },
     { name: "Potato", price: 30, image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=200" },
@@ -31,7 +31,6 @@ function initializeVegetableList() {
         vegetableItemsContainer.appendChild(item);
     });
 }
-
 // Create a vegetable item element
 function createVegetableItem(veg) {
     const div = document.createElement('div');
